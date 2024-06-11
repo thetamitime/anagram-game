@@ -1,0 +1,153 @@
+header {
+  display: flex;
+  height: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  font-weight: 900;
+  font-size: 200%;
+}
+header .scramble {
+  color: #F093DC;
+}
+
+.page-container {
+  background: #161616;
+  height: 100vh;
+  font: 26px "Jost", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.page-container .info-container {
+  display: flex;
+  flex-direction: column;
+}
+.page-container .info-container p {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  flex-grow: 2;
+}
+.page-container .info-container .user-info {
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.page-container .info-container .timer-info {
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.page-container .progress-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 10px 0 10px 0;
+}
+.page-container .progress-container .timer-container {
+  flex-grow: 2;
+  text-align: end;
+}
+.page-container .user-input-field {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.page-container .leaderboard {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.page-container .leaderboard #name {
+  margin: 10px;
+}
+.page-container .leaderboard p {
+  margin: 0;
+}
+.page-container .leaderboard #profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.page-container .leaderboard #profile .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 5px;
+}
+.page-container .leaderboard #profile .flex .item {
+  width: 100%;
+}
+.page-container .leaderboard #profile .columns {
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.page-container .leaderboard #profile .columns .item {
+  width: 100%;
+}
+.page-container .leaderboard #profile .columns .item:first-child {
+  border-right: 5px solid #161616;
+}
+.page-container .buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  justify-content: space-evenly;
+  width: 25%;
+  margin: 10px 0 30px 0;
+}
+.page-container .buttons button {
+  width: 100%;
+  margin: 5px;
+}
+
+input {
+  margin: 10px 0 10px 0;
+  width: 321px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px transparent;
+  font: 20px "Jost", sans-serif;
+  padding: 1px 10px 1px 10px;
+}
+
+button {
+  background-color: #F093DC;
+  height: 40px;
+  padding: 0 52px;
+  margin: 10px 0 10px 0;
+  border-radius: 13px;
+  border: 1px transparent;
+  font: 20px "Jost", sans-serif;
+}
+button:hover {
+  box-shadow: 0 0 8px 0 rgba(243, 120, 231, 0.37);
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.board .square-bg {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=word-scramble.css.map */
